@@ -19,7 +19,7 @@ const decodeTheRing = function (s, p) {
       }
 
       if (sIndex >= s.length) {
-          // Check if rest of pattern can be handled by '*'
+
           for (let i = pIndex; i < p.length; i++) {
               if (p[i] !== '*') {
                   memo.set(memoKey, false);
