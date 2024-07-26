@@ -7,7 +7,7 @@ const decodeTheRing = function (s, p) {
           return true;
       }
       
-      // Memoization lookup
+
       const memoKey = `${sIndex}-${pIndex}`;
       if (memo.has(memoKey)) {
           return memo.get(memoKey);
