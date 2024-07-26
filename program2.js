@@ -13,7 +13,7 @@ const decodeTheRing = function (s, p) {
           return memo.get(memoKey);
       }
 
-      // If pattern index is out of bounds, no match
+
       if (pIndex >= p.length) {
           return false;
       }
