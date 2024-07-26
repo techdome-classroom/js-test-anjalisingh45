@@ -18,7 +18,6 @@ const decodeTheRing = function (s, p) {
           return false;
       }
 
-      // If message index is out of bounds and pattern is not fully consumed by '*'
       if (sIndex >= s.length) {
           // Check if rest of pattern can be handled by '*'
           for (let i = pIndex; i < p.length; i++) {
