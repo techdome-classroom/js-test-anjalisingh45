@@ -24,7 +24,7 @@ const decodeTheRing = function (s, p) {
           for (let i = pIndex; i < p.length; i++) {
               if (p[i] !== '*') {
                   memo.set(memoKey, false);
-                  return false;
+                return false;
               }
           }
           return true;
