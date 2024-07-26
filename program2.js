@@ -2,7 +2,7 @@ const decodeTheRing = function (s, p) {
   const memo = new Map();
 
   function dfs(sIndex, pIndex) {
-      // Base case: if both indices reach the end
+
       if (sIndex === s.length && pIndex === p.length) {
           return true;
       }
